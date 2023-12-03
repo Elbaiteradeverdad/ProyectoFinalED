@@ -9,6 +9,7 @@ public class ProyectoFinalED {
        Pais aux=(Pais)empresa.getPaises().getPrimero().getDato();
        Sucursal aux2=(Sucursal)aux.getSucursales().getPrimero().getDato();
         System.out.println(aux2.getTrabajadores().Mostrar());
+        System.out.println("holaaa");
     }
     
 }
