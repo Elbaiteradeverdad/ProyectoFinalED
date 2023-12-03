@@ -12,6 +12,7 @@ public class Empresa {
 
     public Empresa() {
         this.nombre = "Industrias Wayne";
+        this.Paises=new Lista_Doble();
         String []paises={"Argentina", "Bahamas", "Barbados", "Belice", "Bolivia", "Brasil", "Colombia", "Costa Rica", "Cuba", "Chile", "Dominica", "Ecuador", "El Salvador", "Granada", "Guatemala", "Guyana", "Haití", "Honduras", "Jamaica", "México", "Nicaragua", "Panamá", "Paraguay", "Perú", "República Dominicana", "San Cristóbal"};
         for (int i = 0; i < paises.length; i++) {
             Pais pais=new Pais(paises[i]);

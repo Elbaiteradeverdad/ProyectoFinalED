@@ -18,6 +18,7 @@ public class Sucursal {
             "Eric", "Erica", "Simon", "Simone", "Simona", "Andrew", "Andrea",
             "Carl", "Carla", "Philip", "Philippa"};
         this.lugar = lugar;
+        this.trabajadores=new Listas_ES();
         int numeroTrabajadores = (int) (Math.random() * 50 + 30);
         for (int i = 0; i < numeroTrabajadores; i++) {
             int seleccionNombre = (int) (Math.random() * nombres.length);
